@@ -1,0 +1,29 @@
+.navbar {
+  padding-top: 54px;
+  margin-bottom: 200px;
+}
+
+.figma-logo {
+  margin-right: 270px;
+}
+
+header {
+  background-image: url(images/background-laptop.jpg);
+  color: white;
+  background-position: bottom;
+}
+button {
+  margin-bottom: 338px;
+  
+}
+
+.btn-primary{
+  border-radius: 21px;
+}
+
+.container-features {
+  margin-top: 80px;
+}
+
+
+
