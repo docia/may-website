@@ -1,6 +1,5 @@
 .navbar {
   padding-top: 54px;
-  margin-bottom: 200px;
 }
 
 .figma-logo {
@@ -11,13 +10,10 @@ header {
   background-image: url(images/background-laptop.jpg);
   color: white;
   background-position: bottom;
-}
-button {
-  margin-bottom: 338px;
-  
+  height: 926px;
 }
 
-.btn-primary{
+.btn-primary {
   border-radius: 21px;
 }
 
@@ -25,5 +21,14 @@ button {
   margin-top: 80px;
 }
 
+.container-fastest-way-to-orginize {
+  margin-top: 220px;
+}
 
+.container-fast-prototyping {
+  margin-top: 220px;
+}
 
+.container-partners {
+  margin-top: 220px;
+}
