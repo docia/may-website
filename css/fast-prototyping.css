@@ -1,0 +1,9 @@
+.envelope-image {
+    max-width: 854px;
+}
+
+@media (min-width: 768px) {
+    .fast-prototyping {
+        gap: 50px;
+    }
+}

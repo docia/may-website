@@ -25,175 +25,22 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <header class="d-flex flex-column justify-content-between">
-      <nav class="navbar d-flex">
-        <div class="container d-flex justify-content-center">
-          <div class="w-25">
-            <a href="#">Home</a>
-            <a href="#">Product</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </div>
+    <header data-include="partials/header.partial.html"></header>
 
-          <div>
-            <img
-              src="images/figma-logo.png"
-              alt="figma land logo"
-              class="figma-logo align-self-center"
-            />
-          </div>
+    <main>
+      <section data-include="partials/features.partial.html"></section>
+      <section
+        data-include="partials/fastest-way-to-orginize.partial.html"
+      ></section>
+      <section data-include="partials/fast-prototyping.partial.html"></section>
+      <section data-include="partials/partners.partial.html"></section>
+    </main>
 
-          <div class="social-icons d-flex">
-            <i class="bi bi-twitter me-3"></i>
-            <i class="bi bi-facebook me-3"></i>
-            <i class="bi bi-linkedin me-3"></i>
-          </div>
-        </div>
-      </nav>
+    <footer data-include="partials/footer.partial.html"></footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 
-      <div
-        class="container-introduction d-flex flex-column mx-5 p-0 align-items-center"
-      >
-        <h1 class="text-center">The best products start with Figma</h1>
-        <p>
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </p>
-        <button type="button" class="btn btn-primary mt-5">Try For Free</button>
-      </div>
-
-      <div></div>
-    </header>
-
-    <div class="container container-features">
-      <div class="text-center">
-        <h2>Features</h2>
-        <p>
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </p>
-      </div>
-      <div class="d-flex justify-content-center">
-        <img width="1058.19" src="images/video.png" alt="video with a girl" class="img-fluid" />
-      </div>
-
-      <div class="container d-flex mt-5 w-50">
-        <div class="row align-items-center">
-          <div class="col-lg text-center">
-            <img src="images/icon1.svg" alt="icon1" />
-            <p><strong>OpenType features Variable fonts</strong></p>
-            <p>
-              Slate helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-          </div>
-          <div class="col-lg text-center">
-            <img src="images/icon2.svg" alt="icon2" />
-            <p><strong>Design with real data</strong></p>
-            <p>
-              Slate helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-          </div>
-          <div class="col-lg text-center">
-            <img src="images/icon3.svg" alt="icon3" />
-            <p><strong>Fastest way to take action</strong></p>
-            <p>
-              Slate helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="container flex-wrap container-lg container-fastest-way-to-orginize d-flex justify-content-center"
-    >
-      <div
-        class="d-flex justify-content-center align-items-center align-items-md-start flex-column col-12 col-md-3 text-center text-md-start mb-3 mb-md-0"
-      >
-        <p>Fastest way to organize</p>
-        <p>
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </p>
-        <button type="button" class="btn btn-primary">Try For Free</button>
-      </div>
-      <div class="col-12 col-md-9">
-        <img class="w-100 h-auto" src="images/laptop.png" alt="laptop" />
-      </div>
-    </div>
-
-    <div
-      class="container container-fast-prototyping d-flex justify-content-center align-items-center gap-5"
-    >
-      <div>
-        <img src="images/newsletter-icon.svg" alt="man and newsletters" class="img-fluid" />
-      </div>
-      <div>
-        <p>At your fingertips.</p>
-        <p>Lightning fast prototyping</p>
-        <p>Subscribe to our Newsletter</p>
-        <p>Available exclusivery on Figmaland</p>
-        <div class="div d-flex">
-          <input
-            type="text"
-            class="form-control me-2"
-            placeholder="Your email"
-            aria-label="email"
-            aria-describedby="basic-addon1"
-          />
-          <button type="button" class="btn btn-primary rounded-4">
-            Subscribe
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="container container-partners">
-      <div class="text-center">
-        <h2>Partners</h2>
-        <p>
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </p>
-      </div>
-      <div class="container w-75">
-        <div class="row logos align-items-center justify-content-center text-center">
-          <div class="col-md-3 col-12">
-            <img class="w-75" src="images/google-logo.svg" alt="google logo" />
-          </div>
-          <div class="col-md-3 col-12">
-            <img class="w-75" src="images/amazon-logo.svg" alt="amazon logo" />
-          </div>
-          <div class="col-md-3 col-12">
-            <img class="w-75" src="images/microsoft-logo.svg" alt="microsoft logo" />
-          </div>
-          <div class="col-3">
-            <img class="w-75" src="images/uber-logo.svg" alt="uber logo" />
-          </div>
-          <div class="col-3">
-            <img class="w-75" src="images/dropbox-logo.svg" alt="dropbox logo" />
-          </div>
-          <div class="col-3">
-            <img class="w-75" src="images/google-logo.svg" alt="google logo" />
-          </div>
-          <div class="col-3">
-            <img class="w-75" src="images/uber-logo.svg" alt="uber logo" />
-          </div>
-          <div class="col-3">
-            <img class="w-75" src="images/amazon-logo.svg" alt="amazon logo" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <main></main>
-    <footer></footer>
   </body>
 </html>

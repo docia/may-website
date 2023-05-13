@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.fastest-way-to-orginize,
+.fast-prototyping,
+.partners {
+  margin-top: 220px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0% 10%;
+}
+
+:root {
+  --border-logo-container: #D8D8D8;
+  --header-font-color: white;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  
+}

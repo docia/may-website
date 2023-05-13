@@ -1,0 +1,13 @@
+
+
+
+header {
+  background-image: url(../images/background-laptop.jpg);
+  background-size: cover;
+  color: var(--header-font-color);
+  background-position: bottom;
+  min-height: 500px;
+}
+
+
+
